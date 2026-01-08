@@ -1,16 +1,68 @@
-# React + Vite
+# url-mapping-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project demonstrating both static and dynamic routing.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project shows examples of how to implement static and dynamic routing using React Router. It is useful as a reference for beginners and developers looking to learn how routing works in React applications.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Static (hard-coded) routes
+- Dynamic (parameterized) routes
+- Example components demonstrating navigation
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/sanjaynep/url-mapping-react.git
+cd url-mapping-react
+npm install
+# or
+yarn
+```
+
+### Running the App
+
+```bash
+npm start
+# or
+yarn start
+```
+
+The app will be available at `http://localhost:3000/`.
+
+## Usage
+
+- Explore different URLs to see static and dynamic routing in action.
+- Modify or add routes and components to expand the demonstration.
+
+## Folder Structure
+
+```
+url-mapping-react/
+  src/
+    components/
+    App.js
+    index.js
+    ...
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or pull request for suggestions or improvements.
+
+## License
+
+This project is for demonstration purposes and does not yet have a license specified.
+
+---
+
+Feel free to update this README with more detailed usage instructions or add screenshots for a better understanding.
