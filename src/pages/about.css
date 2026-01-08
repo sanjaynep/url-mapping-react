@@ -1,0 +1,12 @@
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}      
+
+.about h1 {
+    color: #fcfafa;
+    margin: 0;
+}
