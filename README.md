@@ -32,9 +32,9 @@ yarn
 ### Running the App
 
 ```bash
-npm start
+npm run dev
 # or
-yarn start
+yarn run dev
 ```
 
 The app will be available at `http://localhost:3000/`.
@@ -59,10 +59,5 @@ url-mapping-react/
 
 Contributions are welcome! Please open an issue or pull request for suggestions or improvements.
 
-## License
-
-This project is for demonstration purposes and does not yet have a license specified.
-
----
 
 Feel free to update this README with more detailed usage instructions or add screenshots for a better understanding.
